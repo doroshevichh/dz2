@@ -1,6 +1,65 @@
-.heading {
-    font-size: 46px;
-    color: rgb(34, 41, 139);
-    text-align: center;
-    padding: 0.5em;
+html, body {
+    padding: 0;
+    margin: 0;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    padding: 10px 15 px;
+    margin-bottom: 50px;
+    padding-top: 40px
+}
+
+.top-section {
+    background:#EEEFF1;
+}
+
+.logo {
+    display: inline-block;
+    width: 10%;
+    vertical-align: middle;
+}
+
+.main-nav {
+    display: inline-block;
+    width: 88%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.main-nav-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main-nav-item {
+display: inline-block;
+margin-left: 42px;
+}
+
+.main-nav-item a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+font-size: 1rem;
+}
+
+.main-nav-item.active a{
+    color: #34547A;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
