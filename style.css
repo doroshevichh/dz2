@@ -227,28 +227,45 @@ color: white;
 }
 
 .image-content {
-    display:flex;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 0px;
     width:100%;
 }
 
-.image-tabl {
-    display:;
-    padding:0;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    height: 500px;
-    list-style: none;
-    flex-direction:column;
+.image-configuration {
+    display: flex;
+    flex-wrap: wrap;
 }
 
+
+
 .image-list-page {
-    width: 80px;
-    height: 80px;
+    height: 480px;
+    width:379px;
 }
 
 .image-table-page {
-    width: 80px;
-    height: 80px;
+    height: 480px;
+    width:380px;
+}
+
+.image-table-eyer {
+    background-image: url(./img/table.jpg);
+    height: 480px;
+    width:380px;
+}
+
+.image-table-page-eyer {
+    width: 100px;
+    height: 57px;
+}
+
+.image-table-year-block {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
 }
 
 
