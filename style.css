@@ -240,20 +240,15 @@ color: white;
 
 
 
-.image-list-page {
-    height: 480px;
-    width:379px;
-}
-
-.image-table-page {
-    height: 480px;
-    width:380px;
+.image-list-page, .image-table-page {
+    height: 350px;
+    width: 345px;
 }
 
 .image-table-eyer {
-    background-image: url(./img/table.jpg);
-    height: 480px;
-    width:380px;
+    background-image: url(table.svg);
+    height: 350px;
+    width:346px;
 }
 
 .image-table-page-eyer {
@@ -282,6 +277,7 @@ color: white;
 .information-box {
     background-color: #EEEFF1;
     padding: 5rem 0px;
+    margin: 0;
     text-align: center;
 }
 
@@ -294,6 +290,26 @@ color: white;
     padding-bottom: 3rem;
     font-size: 1rem;
     color: #727272;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #34547A;
+    padding: 3rem 0px;
+}
+
+.footer-left {
+    margin: 0;
+    color: white;
+}
+
+.footer-left-title {
+    font: 0.9rem Roboto, sans-serif;
+}
+
+.footer-left-text {
+    font: 0.7rem Roboto, sans-serif;
 }
 
 
