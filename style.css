@@ -1,6 +1,333 @@
-.heading {
-    font-size: 46px;
-    color: rgb(34, 41, 139);
-    text-align: center;
-    padding: 0.5em;
+html, body {
+    padding: 0;
+    margin: 0;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    padding: 10px 15px;
+    margin-bottom: 50px;
+    padding-top: 50px
+}
+
+.top-section {
+    background:#EEEFF1;
+height: 600px;
+}
+
+.logo {
+    display: inline-block;
+    width: 10%;
+    vertical-align: middle;
+}
+
+.main-nav {
+    display: inline-block;
+    width: 88%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.main-nav-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main-nav-item {
+display: inline-block;
+margin-left: 42px;
+}
+
+.main-nav-item a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+font-size: 1rem;
+}
+
+.main-nav-item.active a{
+    color:#34547A;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+
+.laptop {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+   text-align: right;
+   padding-top: 4em;
+   padding-right: 6.25em;
+}
+
+.information {
+    display:inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+
+.heading {
+    font-size: 48px;
+}
+
+.info {
+    color: #727272;
+    width: 540px;
+    height: 70px;
+    padding-bottom: 100px;
+}
+
+.button {
+    text-transform:uppercase;
+    color: #fff;
+    background-color: #34547A;
+    width: 225px;
+    height: 65px;
+    border: 1px solid #34547A;
+    cursor:pointer;
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+}
+
+.heading-content {
+    font-size: 32px;
+    margin-top: 80px;
+}
+
+.info-content {
+    color: #727272;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+
+.div-bought {
+    background:#34547A;
+    text-align: center;
+    padding: 40px 1px;
+    height: 150px;
+    vertical-align: middle;
+}
+
+.icon {
+    display: inline-block;
+    width: 47px;
+    height: 50px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.div-bought-item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 2px 10px;
+    margin-right: 20px;
+    font-size: 21px;
+    text-align: left;
+    color: white;
+}
+
+.div-bought-item.active {
+    font-size: 1rem;
+    text-align: left;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7rem;
+    gap: 9rem;
+}
+
+.skills-box {
+    width:50%;
+}
+
+.photo {
+    max-width: 100%;
+    width: 100%;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-item {
+    margin-bottom: 1rem;
+}
+
+.skills-title {
+    color: #727272;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.skills-progressbar {
+    width: 100%;
+    height: 4px;
+    background-color: #C4C4C4;
+}
+
+.skills-progressbar-color {
+    display: block;
+    width: 80%;
+    height: 4px;
+    background-color: #34547A;
+}
+
+.skills-box-title {
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+
+.video {
+    background-color: #EEEFF1;
+    width: 100%;
+    text-align: center;
+    padding: 6rem;
+}
+
+.video-title {
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+
+.video-text {
+    margin-bottom: 57px;
+    font-size: 1rem;
+    color: #727272;
+}
+
+.video-button {
+    background-image:url(./code.svg);
+    width: 70%;
+    height: 500px;
+}
+
+.button-click {
+    cursor:pointer;
+}
+
+.image-content {
+    font-size:0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.image-icon {
+    display:inline-block;
+    width:25%;
+    position:relative;
+}
+
+.image-icon img {
+   width:100%;
+}
+
+.image-icon .image-icon-overlay{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    opacity:0;
+    background: linear-gradient(0deg, rgb(52, 84, 122), rgb(52, 84, 122));
+    transition:0.1s;
+}
+
+.image-icon .image-icon-overlay:hover {
+    opacity:0.8;
+    cursor:pointer;
+}
+
+.eyer {
+    margin-top: 140px;
+    width:100px;
+    height:58px;
+    
+}
+
+.microsoft {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.microsoft-image {
+    padding-right: 30px;
+    width: 220px;
+}
+
+.information-box {
+    background-color: #EEEFF1;
+    padding: 5rem 0px;
+    margin: 0;
+    text-align: center;
+}
+
+.information-box-title {
+    padding-bottom: 2.5rem;
+    font-size: 2rem;
+}
+
+.information-box-text {
+    padding-bottom: 3rem;
+    font-size: 1rem;
+    color: #727272;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #34547A;
+    padding: 3rem 0px;
+}
+
+.footer-left {
+    margin: 0;
+    color: white;
+}
+
+.footer-left-title {
+    font: 0.9rem Roboto, sans-serif;
+}
+
+.footer-left-text {
+    font: 0.7rem Roboto, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
