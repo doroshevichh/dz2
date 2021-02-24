@@ -250,20 +250,24 @@ font-size: 1rem;
     top:0;
     left:0;
     opacity:0;
+    display:flex;
+    align-items:center;
     background: linear-gradient(0deg, rgb(52, 84, 122), rgb(52, 84, 122));
-    transition:0.1s;
+    transition:opacity 250ms ease-out;
 }
 
 .image-icon .image-icon-overlay:hover {
+    position: absolute;
+    display:flex;
+    align-items:center;
     opacity:0.8;
     cursor:pointer;
+
 }
 
 .eyer {
-    margin-top: 140px;
     width:100px;
     height:58px;
-    
 }
 
 .microsoft {
