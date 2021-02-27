@@ -1,8 +1,3 @@
-@font-face {
-    font-family: Montserrat;
-    src:url(./Montserrat/Montserrat-Regular.ttf);
-}
-
 .standarts {
     background-color:#F6F6F8;
     padding-top: 100px;
@@ -100,7 +95,83 @@
     justify-content:center;
 }
 
+.master {
+    padding: 80px 0;
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+    height: 490px;
+}
 
+.master-content {
+    background-color:white;
+    display:flex;
+    justify-content:center;
+}
 
+.master-title {
+    display:flex;
+    justify-content:space-around;
+}
 
+.master-title-name {
+    font-size: 2rem;
+    line-height: 53px;
+    color: #FFFFFF;
+    margin:0;
+}
 
+.master-btn {
+    display:flex;
+    align-items: center;
+}
+
+.master-section {
+    background: linear-gradient(to bottom, #504DC2 50%, #fff 50%);
+    padding-top: 100px;
+    padding-bottom: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.master-content-item {
+    margin-top: 70px;
+    display:flex;
+    justify-content: center;
+}
+
+.master-content-page {
+    padding-right: 20px;
+}
+
+.master-content-page:last-child {
+    padding:0;
+}
+
+.master-content-item-title {
+    font-size:1.1rem;
+    line-height: 22px;
+}
+
+.master-content-item-text {
+    font-size:1rem;
+    color:#999999;
+    line-height: 25px;;
+}
+
+.master-content-item-setting {
+    color: #4985FF;
+    line-height: 20px;
+    font-size:1rem;
+}
+
+.line-master {
+    height: 1px;
+    background-color: #E0E0E0;
+    border: 1px solid #E0E0E0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:1100px;
+    top: 840px;
+    margin-top: 85px;
+}

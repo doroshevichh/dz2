@@ -54,17 +54,6 @@
     padding:3rem 0;
 }
 
-.section-button {
-    background-color:#4985FF;
-    width:200px;
-    height:45px;
-    border-radius: 30px;
-    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
-    border: 1px solid #4985FF;
-    cursor:pointer;
-    color:white;
-}
-
 .image-container {
     display: flex;
   justify-content: center;

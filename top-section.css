@@ -1,7 +1,14 @@
+@font-face {
+    font-family: Montserrat;
+    src:url(./Montserrat/Montserrat-Regular.ttf);
+}
+
 html, body {
     padding: 0;
     margin: 0;
+    font-family: Montserrat;
 }
+
 
 * {
     box-sizing: border-box;
@@ -78,4 +85,5 @@ body {
     border: 1px solid #4985FF;
     cursor:pointer;
     color:white;
+    outline: none;
 }

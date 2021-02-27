@@ -1,0 +1,40 @@
+.section-video {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url(/img/fon.png); 
+    height:570px;
+}
+
+.section-video-title {
+    margin:0;
+    padding-top:70px;
+    padding-bottom: 30px;
+    font-size: 2rem;
+    line-height: 53px;
+    color: #fff;
+    text-align:center;
+}
+
+.section-video-text {
+    margin:0;
+    text-align:center;
+    font-size: 1rem;
+    line-height: 25px;
+    color: #fff;
+    padding-bottom: 70px;
+}
+
+.section-video-img {
+    text-align:center;
+    padding-bottom: 85px;
+}
+
+.video-line {
+    height: 1px;
+    background-color: #E0E0E0;
+    border: 1px solid #E0E0E0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:1100px;
+    margin-top: 0px;
+    margin-bottom:85px;
+}
