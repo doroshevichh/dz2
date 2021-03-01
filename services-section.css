@@ -25,6 +25,12 @@
     
 }
 
+.services-sites {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
 .services-sites-item {
     display:flex;
     flex-direction: row;
