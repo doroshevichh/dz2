@@ -1,6 +1,120 @@
-.heading {
-    font-size: 46px;
-    color: rgb(34, 41, 139);
-    text-align: center;
-    padding: 0.5em;
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src:url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    width:100%;
+    height:100%;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size:16px;
+    color:white;
+}
+
+header {
+    background:linear-gradient(39.97deg, #00F3B9 0.79%, #2187FF 79.29%);
+   position:relative;
+}
+
+.top-main {
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin: 0 9.7rem 9.5rem 10.3rem;
+    padding-top:3.4rem;
+}
+
+.main-item{
+    text-decoration:none;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.main-item{
+    line-height: 1.7rem;
+    font-size:0.9rem;
+    letter-spacing: 0.2px;
+    color:white;
+}
+
+.email-input {
+    width:273px;
+    height:3.4rem;
+    color: #18171D;
+    padding-left:2.4rem;
+    border: 1px solid #E8E8E8;
+    border-radius: 39px;
+    outline: none;
+    background: #EFEFEF;
+    margin-right:0.5rem;
+    font-size:0.87rem;
+    letter-spacing: 0.1px;
+}
+
+.btn-email {
+    width:8.8rem;
+    height:3.4rem;
+    border-radius: 35px;
+    outline: none;
+    cursor:pointer;
+    border: 1px solid white;
+    background-color:white;
+    color: #2091F9;
+    font-size:1rem;
+    font-weight: 500;
+}
+
+.text-top {
+    margin:0;
+    text-align:center;
+    font-size:1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.1px;
+    margin-bottom:1rem;
+}
+
+.title-top {
+    margin:0;
+    text-align:center;
+    font-size: 3.4rem;
+    letter-spacing: 0.2px;
+    margin-bottom:1.7rem;
+}
+
+.info-top {
+    text-align:center;
+    line-height: 20px;
+    font-size:1rem;
+    letter-spacing: 0.2px;
+    margin-bottom: 5.6rem;
+}
+
+.try {
+    width:14.8rem;
+    height:4rem;
+    font-size:30px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    line-height: 2rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom:33rem;
+}
+
+.top-mackbook {
+    
+    margin-left:auto;
+    margin-right:auto;
+    
 }
