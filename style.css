@@ -273,9 +273,9 @@ header svg {
     text-align:left;
 }
 
-.subscription-content-img {
-    max-width:677px;
-    max-height:514px;
+.subscription-content-img img {
+    width: 100%;
+    height: 100%;
 }
 
 .img-email {
