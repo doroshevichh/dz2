@@ -52,13 +52,16 @@ header svg {
     letter-spacing: 0.2px;
     color:white;
     outline: none;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
 }
 
-.email-input {
+.email-input ,.name-input{
     width:273px;
     height:3.4rem;
     color: #18171D;
-    padding-left:2.4rem;
+    padding-left:20px;
     border: 1px solid #E8E8E8;
     border-radius: 39px;
     outline: none;
@@ -124,7 +127,7 @@ header svg {
 }
 
 .top-mackbook {
-    width: 100%;
+    width: 90%;
     max-width: 1054px;
     margin-left: auto;
     margin-right: auto;
@@ -258,21 +261,26 @@ header svg {
 }
 
 .section-subscription {
-    margin-top:200px;
+    margin:200px 0;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
     gap:120px;
-    margin-bottom:200px;    
+      
 }
 
 .subscription-content h2, .subscription-content h3 {
     text-align:left;
 }
 
-.img-email {
+.subscription-content-img {
     max-width:677px;
+    max-height:514px;
+}
+
+.img-email {
     width:100%;
+    height:100%;
 }
 
 .subscription-content p, .subscription-content h3 {
@@ -331,5 +339,297 @@ header svg {
     color:white;
     background-color:#2091F9;
     border: 1px solid #2091F9;
+    margin-bottom:190px;
+}
+
+.testimonials-section h2 {
+    text-align:center;
+    font-weight: 100;
+    margin:0;
+    margin-bottom:90px;
+}
+
+.testimonials-comment {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    column-gap:60px;
+    row-gap:104px;
     margin-bottom:80px;
 }
+
+.testimonials-comment-item {
+    background-color:white;
+    border: 1px solid #DEDEDE;
+    border-radius:10px;
+    width:100%;
+    height:541px;
+    max-width: 335px;
+    text-align:center;
+}
+
+.testimonials-text, .comment-job {
+    color:#374754;
+}
+
+.testimonials-text {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.2px;
+    margin:0;
+    margin-bottom: 42px;
+}
+
+.comment-job {
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+    margin:0;
+}
+
+.comment-name {
+    font-size: 0.95rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin:0;
+    margin-top:32px;
+    margin-bottom:10px;
+}
+
+.testimonials-img {
+    margin:40px 0;
+}
+
+.testimonials-section button {
+    max-width:280px;
+    width:100%;
+    padding:0;
+    background: #2091F9;
+    border: 1px solid #2091F9;
+    color:white;
+    font-weight:bold;
+}
+
+.section-pricing {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:284px;
+    margin-top:30px;
+    margin-bottom:310px;
+}
+
+.pricing-item-title, .pricing-item-title-second{
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 65px;
+    margin:0;
+    margin-bottom:26px;
+    letter-spacing: 0.2px;
+}
+
+.pricing-item p {
+    margin:0;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.2px;
+    font-weight:normal;
+}
+
+.pricing-item div {
+    display:flex;
+    margin-bottom:16.5px;
+}
+
+.pricing-item-title-second {
+    margin:0;
+    margin-right:10px;
+}
+
+.pricing-item h4, .section-contact h4 {
+    margin:0;
+    margin-bottom:16.5px;
+   
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+.pricing-item h4:nth-child(2) {
+    margin:0;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.pricing-item h4:nth-child(3) {
+    margin:0;
+    margin-bottom:19px;
+}
+
+.pricing-item button {
+    width:159px;
+    background: #2091F9;
+    color:white;
+    border:1px solid #2091F9;
+}
+
+.section-contact {
+    text-align:center;
+    margin-bottom:216px;
+}
+
+.section-contact h4{
+    margin-bottom:51px;     
+}
+
+.section-contact-img{
+    display:flex;
+    justify-content:center;
+    gap:33px;
+}
+
+.contact-img {
+    width:90%;
+    max-width:871px;
+    margin-bottom:69px;
+    margin-top:75px;
+}
+
+.maps-img {
+    width:25px;
+    height:31px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.contact-item {
+    display:flex;
+    flex-direction:column;
+}
+
+.contact-item-text {
+    margin:0;
+}
+
+.section {
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-bottom: 60px;
+}
+
+.contact-item img {
+    margin-bottom:10px;
+}
+
+.form-contact {
+    padding: 52px 50px;
+    background-color:white;
+    width:90%;
+    max-width:868px;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+}
+
+.form-contact h3{
+    color:#252B42;
+    font-size: 22px;
+    line-height: 33px;
+    margin:0;
+    margin-bottom:45px;
+}
+
+.form-contact input {
+    width:100%;
+    max-width:768px;
+    color:#18171D;
+    margin:0;
+    margin-bottom:45px;
+}
+
+.form-textarea {
+    outline: none;
+    resize: none;
+    height:193px;
+    width:100%;
+    max-width:768px;
+    border: 1px solid #E8E8E8;
+    padding: 23px 20px;
+    background:#F5F5F5;
+    font-size: 0.95rem;
+    line-height: 1rem;
+    margin-bottom:45px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-contact button {
+    background-color:#2091F9;
+    width:145px;
+    color:white;
+}
+
+.footer-list {
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+.footer-list-item {
+    color:white;
+    text-decoration:none;
+    font-size: 0.95rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.2px;
+}
+
+.footer-title {
+    margin:0;
+    margin-bottom:25px;
+}
+
+.footer-section {
+    display:flex;
+    justify-content:center;
+    gap:128px;
+    flex-wrap:wrap;
+    padding-bottom:140px;
+}
+
+.footer-list-last img {
+    width:170px;
+    height:41px;
+    margin-bottom:10px;
+}
+
+.footer-list-last h3, .footer-list-last p {
+    margin:0;
+    text-align:left;
+}
+
+.footer-list-last p {
+    margin-top:5px;
+    margin-bottom:29px;
+    font-size: 1.1rem;
+}
+
+.footer-list-last input, .footer-list-last button {
+    width:353px;
+}
+
+.footer-list-last button {
+    height:50px;
+    margin-top:12px;
+    background: #2091F9;
+    color:white;
+    border:1px solid #2091F9;
+}
+
+
+
+
