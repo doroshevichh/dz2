@@ -34,10 +34,16 @@ header svg {
 
 .top-main {
     display:flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     flex-wrap:wrap;
-    margin: 0 9.7rem 9.5rem 10.3rem;
     padding-top:3.4rem;
+    margin-bottom:152px;
+}
+
+.main-list {
+    display:flex;
+    gap:50px;
+    flex-wrap:wrap;
 }
 
 .main-item{
@@ -52,9 +58,6 @@ header svg {
     letter-spacing: 0.2px;
     color:white;
     outline: none;
-    display:flex;
-    flex-wrap:wrap;
-    gap:10px;
 }
 
 .email-input ,.name-input{
@@ -71,7 +74,7 @@ header svg {
     letter-spacing: 0.1px;
 }
 
-.btn-email {
+.btn-email, .btn-email-iphone {
     width:8.8rem;
     height:3.4rem;
     border-radius: 35px;
@@ -253,7 +256,7 @@ header svg {
     box-sizing: border-box;
     border-radius: 35px;
     border: 1px solid white;
-    background-color:#252B42;
+    background-color:transparent;
     font-size:1rem;
     color:white;
     outline: none;
@@ -619,7 +622,8 @@ header svg {
 }
 
 .footer-list-last input, .footer-list-last button {
-    width:353px;
+    max-width:353px;
+    width:100%;
 }
 
 .footer-list-last button {
@@ -634,7 +638,7 @@ header svg {
     .features-content {
         display:flex;
         justify-content:space-around;
-        gap:40px;
+        gap:50px;
         margin:0;
     }
 
@@ -643,4 +647,100 @@ header svg {
     }
 }
 
+@media screen and (max-width: 419px) {
+    .main-item input, .main-item button, .main-list {
+        display:none;
+    }
+
+    .btn-email-iphone {
+        display:block;
+    }
+
+    .section-shop {
+        background: linear-gradient(39.97deg, #00F3B9 0.79%, #2187FF 79.29%);
+        padding:80px 0;
+        margin-top:180px;
+    }
+
+    .try {
+        margin-bottom:65px;
+    }  
+    
+    .info-top {
+        margin-bottom:69px;
+    }
+
+    .title-top {
+        margin:0;
+        font-size: 2.8rem;
+        font-weight: normal;
+    }
+
+    .partners-img {
+        display:grid;
+    }
+
+    .partners-img-item {
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .partners-img-item:nth-child(6), .partners-img-item:nth-child(7) {
+        display:none;
+    }
+
+    .testimonials-comment-item:nth-child(4), .testimonials-comment-item:nth-child(5), .testimonials-comment-item:nth-child(6){
+        display:none;
+    }
+
+    .testimonials-section button {
+        margin-bottom:210px;
+    }
+
+    .section-pricing {
+        gap:110px;
+    }
+
+    .pricing-item:first-child {
+        text-align:center;
+    }
+
+    .pricing-item button {
+        margin-left:40px;
+        margin-top:10px;
+    }
+
+    .contact-img {
+        max-width:358px;
+        max-height:323px;
+        height:100%;
+    }
+
+    .section {
+        display:grid;
+    }
+
+    .contact-item {
+        display:flex;
+        flex-direction:row;
+    }
+
+    .contact-item-text {
+        text-align:left;
+        margin-top:auto;
+        margin-bottom:auto;
+        margin-left:20px;
+    }
+
+    .footer-section {
+        display:grid;
+        text-align:center;
+    }
+}
+
+@media screen and (min-width: 420px) {
+    .btn-email-iphone {
+        display:none;
+    }
+}
 
