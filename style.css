@@ -135,7 +135,7 @@ header svg {
     max-width: 1054px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom:140px;
+    margin-bottom:100px;
 }
 
 .features-section {
@@ -270,21 +270,22 @@ header svg {
     flex-wrap:wrap;
     justify-content:center;
     gap:120px;
-      
+}
+
+.subscription-content-iphone {
+    text-align:center;
 }
 
 .subscription-content h2, .subscription-content h3 {
     text-align:left;
 }
+.subscription-content-img {
+    width:90%;
+}
 
 .subscription-content-img img {
     width: 100%;
     height: 100%;
-}
-
-.img-email { 
-    width:100%;
-    height:100%;
 }
 
 .subscription-content p, .subscription-content h3 {
@@ -649,13 +650,38 @@ header svg {
 }
 
 @media screen and (max-width: 419px) {
-    .main-item input, .main-item .btn-email, .main-list {
+    .main-item input, .main-item .btn-email, .main-list, .subscription-content h3:first-child, .subscription-content h2  {
         display:none;
+    }
+
+    #email-subscription, #btn-subscription {
+        display:block;
+    }
+
+
+    .subscription-content {
+        margin:0;
+    }
+
+    .subscription-content p {
+        margin-top:10px;
+    }
+
+    .section-subscription {
+        margin-top:80px;
+    }
+
+    #btn-subscription, #email-subscription {
+        max-width:353px;
+        width:100%;
+    }
+
+    #email-subscription {
+        margin-bottom:12px;
     }
 
     .top-main {
         margin: 28px 22px 108px 35px;
-        
     }
 
     .top-menu {
@@ -680,6 +706,7 @@ header svg {
         background: linear-gradient(39.97deg, #00F3B9 0.79%, #2187FF 79.29%);
         padding:80px 0;
         margin-top:180px;
+        margin-bottom:0;
     }
 
     .try {
@@ -727,7 +754,7 @@ header svg {
 
     .pricing-item button {
         margin-left:40px;
-        margin-top:10px;
+        margin-top:19px;
     }
 
     .contact-img {
@@ -755,11 +782,12 @@ header svg {
     .footer-section {
         display:grid;
         text-align:center;
+        padding-bottom:90px;
     }
 }
 
 @media screen and (min-width: 419px) {
-    .btn-email-iphone, .top-menu {
+    .btn-email-iphone, .top-menu, .subscription-content-iphone {
         display:none;
     }
 }
