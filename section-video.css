@@ -59,6 +59,10 @@
     cursor:pointer;
 }
 
+.video-content-setting:hover {
+    border: 3px solid #ffd8d8;
+}
+
 .btn-text {
     font-size: 1rem;
     line-height: 25px;
@@ -125,6 +129,10 @@
     font-family: Montserrat;
 }
 
+.email-input:focus {
+    border: 2px solid #a79d9d;
+}
+
 .btn-email {
     position:absolute;
     background: #4985FF;
@@ -139,6 +147,10 @@
     line-height: 20px;
     outline: none;
     cursor:pointer;
+}
+.btn-email:hover{
+    border: 1px solid #2157c4;
+    background-color: #2157c4;
 }
 
 .mailin-btm-text {

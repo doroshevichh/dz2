@@ -93,6 +93,10 @@
     transform: scale(0.82);
 }
 
+.services-item-image:hover {
+    background-color:rgb(240, 231, 231); 
+}
+
 
 
 
