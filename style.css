@@ -33,12 +33,22 @@ header svg {
     height: 100%;
 }
 
+.header {
+    background-image: url(./img/line.svg);
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+
 .top-main {
     display:flex;
     justify-content:space-evenly;
     flex-wrap:wrap;
     margin-top:52px;
     margin-bottom:152px;
+}
+
+.top-main a {
+    outline: none;
 }
 
 .main-list {
@@ -51,14 +61,15 @@ header svg {
     text-decoration:none;
     margin-top:auto;
     margin-bottom:auto;
-}
-
-.main-item{
     line-height: 1.7rem;
     font-size:0.9rem;
     letter-spacing: 0.2px;
     color:white;
     outline: none;
+}
+
+.main-item:hover {
+    text-decoration:underline;
 }
 
 .email-input ,.name-input{
@@ -75,6 +86,10 @@ header svg {
     letter-spacing: 0.1px;
 }
 
+.email-input:focus {
+    border: 1px solid #7681e4;
+}
+
 .btn-email {
     width:8.8rem;
     height:3.4rem;
@@ -86,6 +101,12 @@ header svg {
     color: #2091F9;
     font-size:1rem;
     font-weight: 500;
+}
+
+.btn-email:hover {
+    border: 2px solid #2091F9;
+    background-color:rgb(247, 241, 241);
+    font-size:0.97rem;
 }
 
 .text-top {
@@ -116,7 +137,6 @@ header svg {
 .try {
     width:14.8rem;
     height:4rem;
-    font-size:30px;
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -124,6 +144,12 @@ header svg {
     font-weight: bold;
     font-size: 1.4rem;
     margin-bottom:180px;
+}
+
+.try:hover {
+    border: 2px solid #252B42;
+    background-color:rgb(247, 241, 241);
+    font-size:1.37rem;
 }
 
 .mackbook {
@@ -250,6 +276,12 @@ header svg {
     font-weight: 600;
 }
 
+.btn-shop:hover {
+    font-size:0.98rem;
+    border: 2px solid #252B42;
+    background-color:rgb(247, 241, 241);
+}
+
 .btn-free {
     max-width:172px;
     width:100%;
@@ -262,6 +294,11 @@ header svg {
     color:white;
     outline: none;
     cursor:pointer;
+}
+
+.btn-free:hover {
+    font-size:1.05rem;
+    border: 1px solid #2091F9;
 }
 
 .section-subscription {
@@ -279,13 +316,9 @@ header svg {
 .subscription-content h2, .subscription-content h3 {
     text-align:left;
 }
-.subscription-content-img {
-    width:90%;
-}
 
 .subscription-content-img img {
-    width: 100%;
-    height: 100%;
+    max-width:100%;
 }
 
 .subscription-content p, .subscription-content h3 {
@@ -313,6 +346,10 @@ header svg {
     color:white;
     background-color: #2091F9;
     border: 1px solid #2091F9;
+}
+
+#btn-subscription:hover {
+    background-color:#2091F9;
 }
 
 .partners-title {
@@ -758,9 +795,8 @@ header svg {
     }
 
     .contact-img {
-        max-width:358px;
-        max-height:323px;
-        height:100%;
+        max-width:100%;
+        max-height:100%;
     }
 
     .section {

@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <svg viewBox="0 0 1439 1243" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <header class="header" id="home">
+        <!-- <svg viewBox="0 0 1439 1243" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path opacity="0.19" d="M0 57H1439V733.5C1439 733.5 1185 1065.75 703 914.5C221 763.25 0 1243 0 1243V57Z" fill="url(#paint0_linear)"/>
             <path d="M0 -3H1439V730.5C1439 730.5 1180.5 1051.75 698.5 900.5C216.5 749.25 0 1117 0 1117V-3Z" fill="url(#paint1_linear)"/>
             <defs>
@@ -23,10 +23,12 @@
             </linearGradient>
             </defs>
         </svg>
-            
+             -->
             
         <div class="top-main">
-            <img src="img/Rectangle 4.svg" class="top-image">
+            <a href="#">
+                <img src="img/Rectangle 4.svg" class="top-image">
+            </a>
             <nav class="main-list">
                 <a href="#" class="main-item">Home</a>
                 <a href="#" class="main-item">Product</a>
@@ -34,7 +36,7 @@
                 <a href="#" class="main-item">About</a>
                 <a href="#" class="main-item">Contect</a> 
             </nav>          
-            <form class="main-item">
+            <form >
                 <label for="email" class="form-label"></label>
                 <input type="email" placeholder="Your email" class="email-input" id="email-header">
                 <button class="btn-email" type="submit">Subscribe</button>
@@ -97,7 +99,7 @@
         </div>
     </section>
 
-    <section class="section-shop">
+    <section class="section-shop" id="product">
         <h3 class="text-top">
             At your fingertips
         </h3>
@@ -127,7 +129,7 @@
                 Slate is designed for freelancers
             </p>
         </div>
-        <div class="subscription-content-img">
+        <div>
             <img src="img/mail.png" >
         </div>
         <div class="subscription-content">
@@ -276,7 +278,7 @@
         <button class="btn-email try" type="submit">More Testimonials</button>
     </section>
 
-    <section class="section-pricing">
+    <section class="section-pricing" id="pricing">
         <div class="pricing-item">
             <h1 class="pricing-item-title">
                 Pricing
@@ -308,7 +310,7 @@
         </div>
     </section>
 
-    <section class="section-contact">
+    <section class="section-contact" id="contact">
         <h2 class="partners-title">
             Contact Us
         </h2>
@@ -321,7 +323,7 @@
             <img src="./img/facebook.svg" >
             <img src="./img/inst.svg" >
         </div>
-        <img src="./img/maap.svg" class="contact-img">
+        <img src="./img/map.png" class="contact-img">
         <div class="section">
             <div class="contact-item">
                 <img src="img/maps.svg" class="maps-img">
@@ -362,11 +364,11 @@
                 Pages
             </h3>
             <nav class="footer-list">
-                <a href="#" class="footer-list-item">Home</a>
-                <a href="#" class="footer-list-item">Product</a>
-                <a href="#" class="footer-list-item">Pricing</a>
+                <a href="#home" class="footer-list-item">Home</a>
+                <a href="#product" class="footer-list-item">Product</a>
+                <a href="#pricing" class="footer-list-item">Pricing</a>
                 <a href="#" class="footer-list-item">About</a>
-                <a href="#" class="footer-list-item">Contact</a>
+                <a href="#contact" class="footer-list-item">Contact</a>
             </nav>
         </div>
 
