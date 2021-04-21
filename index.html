@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Diplom work</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="header" id="home">
         <!-- <svg viewBox="0 0 1439 1243" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,7 +26,7 @@
             </defs>
         </svg>
              -->
-            
+
         <div class="top-main">
             <a href="#">
                 <img src="img/Rectangle 4.svg" class="top-image">
@@ -34,9 +36,9 @@
                 <a href="#" class="main-item">Product</a>
                 <a href="#" class="main-item">Pricing</a>
                 <a href="#" class="main-item">About</a>
-                <a href="#" class="main-item">Contect</a> 
-            </nav>          
-            <form >
+                <a href="#" class="main-item">Contect</a>
+            </nav>
+            <form>
                 <label for="email" class="form-label"></label>
                 <input type="email" placeholder="Your email" class="email-input" id="email-header">
                 <button class="btn-email" type="submit">Subscribe</button>
@@ -72,30 +74,30 @@
         </h4>
         <div class="features-item">
             <img src="img/browser.png" class="features-img">
-                <div class="features-content">
-                    <div class="features-content-item">
-                        <img src="img/icon.png">
-                        <h3 class="text-top">
-                            At your fingertips
-                        </h3>
-                        <p>
-                            Slate helps you see how many <br>
-                            more days you need to work to <br>
-                            reach your financial goal. 
-                        </p>
-                    </div>
-                    <div class="features-content-item">
-                        <img src="img/icon.png">
-                        <h3 class="text-top">
-                            At your fingertips
-                        </h3>
-                        <p>
-                            Slate helps you see how many <br>
-                            more days you need to work to <br>
-                            reach your financial goal. 
-                        </p>
-                    </div>
+            <div class="features-content">
+                <div class="features-content-item">
+                    <img src="img/icon.png">
+                    <h3 class="text-top">
+                        At your fingertips
+                    </h3>
+                    <p>
+                        Slate helps you see how many <br>
+                        more days you need to work to <br>
+                        reach your financial goal.
+                    </p>
                 </div>
+                <div class="features-content-item">
+                    <img src="img/icon.png">
+                    <h3 class="text-top">
+                        At your fingertips
+                    </h3>
+                    <p>
+                        Slate helps you see how many <br>
+                        more days you need to work to <br>
+                        reach your financial goal.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -122,16 +124,18 @@
                 At your fingertips
             </h3>
             <h2 class="title-top-shop">
-                Newsletter 
+                Newsletter
             </h2>
             <p class="text-subscription">
                 Most calendars are designed for teams.<br>
                 Slate is designed for freelancers
             </p>
         </div>
-        <div>
-            <img src="img/mail.png" >
-        </div>
+
+
+            <img src="img/mail.png" id="mail-png">
+     
+
         <div class="subscription-content">
             <h3 class="text-top">
                 At your fingertips
@@ -170,7 +174,7 @@
             <img src="./img/a.png" class="partners-img-item">
             <img src="./img/g.png" class="partners-img-item">
         </div>
-        <button class="btn-email try" type="submit">Try For Free</button>
+        <button class="btn-email try" id="testimonial-btn" type="submit">Try For Free</button>
     </section>
 
     <section class="testimonials-section">
@@ -275,7 +279,7 @@
                 </p>
             </div>
         </div>
-        <button class="btn-email try" type="submit">More Testimonials</button>
+        <button class="btn-email try" id="testimonials-btn" type="submit">More Testimonials</button>
     </section>
 
     <section class="section-pricing" id="pricing">
@@ -294,19 +298,19 @@
                 30 - DAY FREE TRIAL.
             </h4>
             <div>
-            <h1 class="pricing-item-title-second">
-                $10
-            </h1>
-            <h4>
-                / Month per User
-            </h4>
+                <h1 class="pricing-item-title-second">
+                    $10
+                </h1>
+                <h4>
+                    / Month per User
+                </h4>
             </div>
             <h4>
                 Most calendars are designed <br>
-                for teams. 
+                for teams.
 
             </h4>
-            <button class="btn-email" type="submit">Get started</button>
+            <button class="btn-email" id="pricing-btn" type="submit">Get started</button>
         </div>
     </section>
 
@@ -316,13 +320,23 @@
         </h2>
         <h4>
             Most calendars are designed for teams.<br>
-             Slate is designed for freelancers
+            Slate is designed for freelancers
         </h4>
+
         <div class="section-contact-img">
-            <img src="./img/twitter.svg" >
-            <img src="./img/facebook.svg" >
-            <img src="./img/inst.svg" >
+            <a href="#">
+                <img src="./img/twitter.svg">
+            </a>
+
+            <a href="#">
+                <img src="./img/facebook.svg">
+            </a>
+
+            <a href="#">
+             <img src="./img/inst.svg">
+             </a>
         </div>
+
         <img src="./img/map.png" class="contact-img">
         <div class="section">
             <div class="contact-item">
@@ -350,11 +364,12 @@
                 Contact Us
             </h3>
             <label for="name" class="form-label"></label>
-            <input type="name" placeholder="Your name" class="name-input" id="name">
+            <input type="name" placeholder="Your name" class="email-input" id="name">
             <label for="email" class="form-label"></label>
             <input type="email" placeholder="Your email" class="email-input" id="email-form">
-            <textarea name="message" placeholder="Your Message" id="message"   maxlength="1000" class="form-textarea"></textarea>
-            <button class="btn-email" type="submit">Send</button>
+            <textarea name="message" placeholder="Your Message" id="message" maxlength="1000"
+                class="form-textarea"></textarea>
+            <button class="btn-email"  id="form-btn" type="submit">Send</button>
         </form>
     </section>
 
@@ -399,7 +414,10 @@
         </div>
 
         <div class="footer-list-last">
-            <img src="img/social media.png">
+            <a href="#">
+             <img src="img/social media.png">
+            </a>
+
             <h3 class="text-top">
                 Subscribe to our Newsletter
             </h3>
@@ -408,8 +426,9 @@
             </p>
             <label for="email" class="form-label"></label>
             <input type="email" placeholder="Your email" class="email-input" id="email-footer"><br>
-            <button class="btn-email" type="submit">Subscribe</button>
+            <button class="btn-email" id="form-btn" type="submit">Subscribe</button>
         </div>
     </footer>
 </body>
+
 </html>

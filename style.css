@@ -87,7 +87,7 @@ header svg {
 }
 
 .email-input:focus {
-    border: 1px solid #7681e4;
+    border: 2px solid #929196;
 }
 
 .btn-email {
@@ -147,9 +147,11 @@ header svg {
 }
 
 .try:hover {
-    border: 2px solid #252B42;
-    background-color:rgb(247, 241, 241);
+    border: 2px solid rgb(211, 211, 211);
+    background-color:rgb(211, 211, 211);
     font-size:1.37rem;
+    height:3.9rem;
+    width:14.7rem;
 }
 
 .mackbook {
@@ -309,16 +311,17 @@ header svg {
     gap:120px;
 }
 
+#mail-png {
+    max-width:800px;
+    width:90%;
+}
+
 .subscription-content-iphone {
     text-align:center;
 }
 
 .subscription-content h2, .subscription-content h3 {
     text-align:left;
-}
-
-.subscription-content-img img {
-    max-width:100%;
 }
 
 .subscription-content p, .subscription-content h3 {
@@ -346,6 +349,10 @@ header svg {
     color:white;
     background-color: #2091F9;
     border: 1px solid #2091F9;
+}
+
+#email-subscription:focus{
+    border: 2px solid #2091F9;
 }
 
 #btn-subscription:hover {
@@ -382,6 +389,33 @@ header svg {
     background-color:#2091F9;
     border: 1px solid #2091F9;
     margin-bottom:190px;
+}
+
+#testimonials-btn:hover{
+    border: 1px solid #1282eb;
+    background-color:#1282eb;
+    font-size:1.37rem;
+    height:3.9rem;
+    width:100%;
+}
+
+#testimonial-btn:hover{
+    max-width:237px;
+    width:100%;
+    background-color:#1282eb;
+    border: 1px solid #1282eb;
+}
+
+#form-btn:hover{
+    background-color:#1282eb;
+    font-size:1.1rem;
+}
+
+#pricing-btn:hover {
+    max-width:159px;
+    width:100%;
+    background-color:#1282eb;
+    border: 1px solid #1282eb;
 }
 
 .testimonials-section h2 {
@@ -608,6 +642,10 @@ header svg {
     line-height: 1rem;
     margin-bottom:45px;
     font-family: 'Roboto', sans-serif;
+}
+
+.form-textarea:focus{
+    border: 2px solid #929196;
 }
 
 .form-contact button {
